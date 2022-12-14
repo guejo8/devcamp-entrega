@@ -1,0 +1,122 @@
+*, *:before, *:after {-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;padding:0}
+
+ body{background-color:#1E262D;
+    line-height:1.5;
+    font-family:sans-serif;
+    font-size:16px;color:#fff}
+a{text-decoration:none;
+    color:#fff}
+#header{background:#1E262D;
+    width:100%;
+    position:relative
+    
+}
+#header:after{content:"";
+    clear:both;
+    display:block}
+.search{float:right;
+    padding:30px}
+input{border:none;
+    padding:10px;
+    border-radius:20px}
+.logo{float:left;
+}
+img { 
+    max-width: 45%;
+        height:auto;
+}  
+        
+nav{float:right;}
+nav>ul{float:left;
+    position:relative}
+nav li{list-style:none;
+    float:left}
+
+nav li a{float:left;
+    padding:35px}
+
+nav li ul{display:none}
+
+nav li li{float:none}
+nav .dropdown ul{position:absolute;
+    left:0;top:100%;
+    background:#fff;
+    padding:20px 0;
+    border-bottom:3px solid #34495e}
+nav .dropdown li{white-space:nowrap}
+nav .dropdown li a{
+    padding:10px 35px;
+    font-size:13px;
+    min-width:200px}
+
+
+ .container-central {
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1E262D;
+    border-top:5px solid #34495e;
+    box-sizing: border-box;
+ }
+   
+
+.texto-central {
+    background-color: #1E262D;
+    color:antiquewhite;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    height: auto;
+    position:absolute;
+   
+}
+.texto-central p {
+    margin-top: 4rem;
+   
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+.lateral {
+    max-width: 50%;
+    height: auto;
+    float:right;
+    position:relative;
+
+}
+
+.btn {
+	
+	border: 0,5rem;
+	border-color: #226fc1;
+	color: #226fc1;
+	background-color: #0f9d27;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	font-size: 20px;
+	position: relative;
+	float:left;
+	margin: 2rem;
+}
+
+
+
+  .btn2 {
+    border: 0,5rem;
+	border-color: #fff;
+	color: #fff;
+	background-color: #1E262D;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	font-size: 20px;
+	position: relative;
+	left: 45%;
+	margin: 4rem;
+
+  }
+  #footer{background:#1E262D;
+    width:100%;
+    position:relative;
+  }
