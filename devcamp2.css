@@ -103,20 +103,3 @@ nav .dropdown li a{
 
 
 
-  .btn2 {
-    border: 0,5rem;
-	border-color: #fff;
-	color: #fff;
-	background-color: #1E262D;
-	padding: 1rem 2rem;
-	cursor: pointer;
-	font-size: 20px;
-	position: relative;
-	left: 45%;
-	margin: 4rem;
-
-  }
-  #footer{background:#1E262D;
-    width:100%;
-    position:relative;
-  }
